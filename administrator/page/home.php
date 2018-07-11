@@ -1,0 +1,2 @@
+<h3>Selamat Datang, <span style="color: blue;"><?php echo ucfirst($_SESSION["tiket_masuk"]);?></span></h3>
+<h3>Status Hak Akses sebagai, <span style="color: red;"><?php echo $_SESSION["tiket_level"];?></span></h3>
